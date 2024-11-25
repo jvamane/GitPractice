@@ -2,3 +2,4 @@ testing feature branching in GitFlow
 
 Fix feature with hotfix h2
 Fix feature with hotfix h3
+${{secrets.Polaris_Password}}
