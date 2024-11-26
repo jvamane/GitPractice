@@ -1,5 +1,272 @@
-testing feature branching in GitFlow
-
-Fix feature with hotfix h2
-Fix feature with hotfix h3
-${{secrets.Polaris_Password}}
+[
+    {
+        "description": "",
+        "name": "Token.NORAM.Client_ID",
+        "type": "string",
+        "value": "3MVG9hq7jmfCuKfeeKj3tCgoMGmNbTpvJJpObn7MLNMebS.eWhuWNC7g1jw_wk0howN9uJCSYzkXzNftWHiH1"
+    },
+    {
+        "description": "",
+        "name": "Token.NORAM.Password",
+        "type": "password",
+        "value": "IntegrationUser@1231sE2ddpcmDW4Iy4izzlRGKox9"
+    },
+    {
+        "description": "",
+        "name": "Token.NORAM.UserName",
+        "type": "string",
+        "value": "integrationuser@sanofi.com.noramsittci"
+    },
+    {
+        "description": "",
+        "name": "Token.NORAM.Client_Secret",
+        "type": "string",
+        "value": "AB52354304F7AF436062D575409B1BD9AB5D8A6F0165DD7D76413525293DC9EA"
+    },
+    {
+        "description": "",
+        "name": "Token.EndpointURL",
+        "type": "string",
+        "value": "https://test.salesforce.com/services/oauth2/token"
+    },
+    {
+        "description": "",
+        "name": "Token.EMEA.Client_Secret",
+        "type": "string",
+        "value": "494414C21061F26F20427FFD5B12A0384F815FF2619897086C0F3BE3ACFFB4F8"
+    },
+    {
+        "description": "",
+        "name": "Token.EMEA.Password",
+        "type": "password",
+        "value": "IntegrationUser@1236dKTqsEBaizGNPs2rOuTJdVq1"
+    },
+    {
+        "description": "",
+        "name": "Token.EMEA.UserName",
+        "type": "string",
+        "value": "integrationuser@sanofi.com.emeasittci"
+    },
+    {
+        "description": "",
+        "name": "Token.EMEA.Client_ID",
+        "type": "string",
+        "value": "3MVG9uAc45HBYUrj7iNcMkBFDfqLCABMtQSTtrmhVe3P7N883NWSA8ItjL9_kuopp2gdYEPmjCEPHA7zg52Sb"
+    },
+    {
+        "description": "",
+        "name": "Token.LATAM.Client_Secret",
+        "type": "string",
+        "value": "7A69414F327A148A11BE356BDE39116F346ACE909C1D825C6A6E8772EE4FE255"
+    },
+    {
+        "description": "",
+        "name": "Token.LATAM.Password",
+        "type": "password",
+        "value": "TCIUserForLatam@123OhQL81mzAqXgetya9v2liMxv"
+    },
+    {
+        "description": "",
+        "name": "Token.LATAM.UserName",
+        "type": "string",
+        "value": "integrationuser@sanofi.com.latamsit"
+    },
+    {
+        "description": "",
+        "name": "Token.LATAM.Client_ID",
+        "type": "string",
+        "value": "3MVG9qwDmLOyLzAN5AGGZEIqK2SakraCjWlGuSsuPhjRW1ys4UGN9QBRcNHn2abuHMzSacUMeyUxWF7CCvsx3"
+    },
+    {
+        "description": "",
+        "name": "Token.grant_type",
+        "type": "string",
+        "value": "password"
+    },
+    {
+        "description": "",
+        "name": "SalesForce.Path",
+        "type": "string",
+        "value": "services/data/v50.0/sobjects/CS_Case_Notification_PE__e"
+    },
+    {
+        "description": "",
+        "name": "CountryList.LATAM",
+        "type": "string",
+        "value": "AW,BS,BB,BO,BR,CA,KY,CL,CO,CR,CW,DO,EC,SV,GT,HN,IE,JM,MX,NI,PA,PY,PE,SX,TT,UY"
+    },
+    {
+        "description": "",
+        "name": "CountryList.EMEA",
+        "type": "string",
+        "value": "BE,FR,MQ,GP,RE,GF,NC,PF,MC,AD,YT,PM,BL,RU,IT,NL,DE,AT,CH,ES,GR,WF,PT,KH,TW,CN,RS,KR,CZ,BF"
+    },
+    {
+        "description": "",
+        "name": "CountryList.NORAM",
+        "type": "string",
+        "value": "US"
+    },
+    {
+        "description": "",
+        "name": "SalesForce.Default_URL",
+        "type": "string",
+        "value": "https://sanofichceu--emeasit.sandbox.my.salesforce.com/{path}"
+    },
+    {
+        "description": "",
+        "name": "SalesForce.NORAM_Host",
+        "type": "string",
+        "value": "sanofichc--noramsit.sandbox.my.salesforce.com"
+    },
+    {
+        "description": "",
+        "name": "SalesForce.EMEA_Host",
+        "type": "string",
+        "value": "sanofichceu--emeasit.sandbox.my.salesforce.com"
+    },
+    {
+        "description": "",
+        "name": "SalesForce.LATAM_Host",
+        "type": "string",
+        "value": "sanofichclatam--latamsit.sandbox.my.salesforce.com"
+    },
+    {
+        "description": "",
+        "name": "SalesForce.Path-O1b",
+        "type": "string",
+        "value": "services/data/v50.0/sobjects/CS_Memo_Request_PE__e"
+    },
+    {
+        "description": "",
+        "name": "AuditFlow.Splunk_Destination",
+        "type": "string",
+        "value": "tst.q.chc.ESB.AuditLogging.LogEvent"
+    },
+    {
+        "description": "",
+        "name": "AuditFlow.error_Destination",
+        "type": "string",
+        "value": "tst.q.chcmig.reply"
+    },
+    {
+        "description": "",
+        "name": "AuditFlow.GetSetkey",
+        "type": "string",
+        "value": "1"
+    },
+    {
+        "description": "",
+        "name": "EMS.EMS-Connection.ServerUrl",
+        "type": "string",
+        "value": "ssl://01gve3hn49mymfnfgt8ec5s4kk-ems0.eu.messaging.cloud.tibco.com:10340,ssl://01gve3hn49mymfnfgt8ec5s4kk-ems1.eu.messaging.cloud.tibco.com:10339"
+    },
+    {
+        "description": "",
+        "name": "EMS.EMS-Connection.User_Name",
+        "type": "string",
+        "value": "test-ems-bw"
+    },
+    {
+        "description": "",
+        "name": "EMS.EMS-Connection.Password",
+        "type": "password",
+        "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbnQiOlsicHViIiwic3ViIl0sImdzYmMiOiIwMUdWRTNITjQ5TVlNRk5GR1Q4RUM1UzRLSyIsImlhdCI6MTY4NDczOTg4OCwicm9sZSI6InRlc3QtZW1zLWJ3Iiwic3ViIjoiNWE1MDIyZGJmYTcwNGE4NWFmMGJhMGE1NDk2ZDM0NGEiLCJzdmMiOlsiZW1zIl19.AIdcVT_PuKW_ZREkCbRZ2WFty9J_PurTlLkm7ITsA5LR7kvRefcwE-JbSXwfNjU-81SakvpFI2f4xr4qH53XdOpXKU5cR4V-s2GHTTha_HTUFnZ6ANkIM6UYrnIDTNY5cs8hotSyMtEMXOZiL4IHwnWJH6UfiqlY5GIvj2EBXMQlqJhe24l0feVl_L3-auvf9pIxbP7ZWQ6jM5DxnrlvqEiGDGJhgEsI19cQKuD4Epkgq_HfrlUN2q85aoY-ptb8Xab1ej3iH5rdMCOxIzwx5tnq0HzWY2-UCwdwodf0_mW4fxvYojQfbSbRC5ezLlH32c8Y9gzUtsJT-8FPpvhlew"
+    },
+    {
+        "description": "",
+        "name": "EMS.EMS-Connection.Client_Key_Password",
+        "type": "password",
+        "value": "password"
+    },
+    {
+        "description": "",
+        "name": "EMS.EMS-Connection.Hostname_Verification",
+        "type": "boolean",
+        "value": "true"
+    },
+    {
+        "description": "",
+        "name": "EMS.EMS-Connection.Reconnect_Count",
+        "type": "number",
+        "value": "4"
+    },
+    {
+        "description": "",
+        "name": "EMS.EMS-Connection.Reconnect_Delay",
+        "type": "number",
+        "value": "500"
+    },
+    {
+        "description": "",
+        "name": "EMS.EMS-Connection.Retry_Timeout",
+        "type": "number",
+        "value": "0"
+    },
+    {
+        "description": "",
+        "name": "flowCode",
+        "type": "string",
+        "value": "ReturnOrderUpdates"
+    },
+    {
+        "description": "",
+        "name": "serviceName",
+        "type": "string",
+        "value": "Flogo.api-ReturnOrderUpdates"
+    },
+    {
+        "description": "",
+        "name": "taskCode",
+        "type": "string",
+        "value": "MCS-40043"
+    },
+    {
+        "description": "",
+        "name": "appName",
+        "type": "string",
+        "value": "Flogo.api-ReturnOrderUpdates"
+    },
+    {
+        "description": "",
+        "name": "RetryCount",
+        "type": "number",
+        "value": "2"
+    },
+    {
+        "description": "",
+        "name": "RetryQueue",
+        "type": "string",
+        "value": "dev.q.chcmig.Remediation.MCS-40043.Retry"
+    },
+	{
+		"description": "",
+        "name": "Log_Layer",
+        "type": "string",
+        "value": "FLOGO-SIT"
+    },
+        { 
+		"description": "",
+            "name": "MemoOrderTypes",
+            "type": "string",
+            "value": "ZCR,ZCFR,ZGA2,ZRK,ZDR,ZDFR"
+        },
+        {
+		"description": "",
+            "name": "UnplannedReturnOrderTypes",
+            "type": "string",
+            "value": "ZRE,ZREA,ZREB"
+        },
+        {
+		"description": "",
+            "name": "ReturnOrderTypes",
+            "type": "string",
+            "value": "ZRE,ZREA,ZREB,ZSAR,ZGA2"
+        },
+        {
+		"description": "",
+            "name": "UnplannedSalesOrgs",
+            "type": "string",
+            "value": "AT03,DE11,CH04"
+        }
+]
