@@ -3,7 +3,7 @@
         "description": "",
         "name": "Token.NORAM.Client_ID",
         "type": "string",
-        "value": "3MVG9hq7jmfCuKfeeKj3tCgoMGmNbTpvJJpObn7MLNMebS.eWhuWNC7g1jw_wk0howN9uJCSYzkXzNftWHiH1"
+        "value": "<TOKEN_NORAM_CLIENT_ID>"
     },
     {
         "description": "",
